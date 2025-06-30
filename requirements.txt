@@ -11,3 +11,9 @@ openrouteservice
 plotly
 python-dotenv
 streamlit-option-menu
+# LangChain and LLMs
+langchain
+langchain-openai
+openai
+mistralai  # Only needed if you call Mistral directly
+langchain-community  # Needed for OpenRouter via LangChain
