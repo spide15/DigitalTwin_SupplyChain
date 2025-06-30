@@ -10,3 +10,4 @@ openai
 openrouteservice
 plotly
 python-dotenv
+streamlit-option-menu
