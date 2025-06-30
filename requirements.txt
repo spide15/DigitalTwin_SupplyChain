@@ -9,3 +9,4 @@ langchain
 openai
 openrouteservice
 plotly
+python-dotenv
