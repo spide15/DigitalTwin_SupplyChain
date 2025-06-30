@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
+.streamlit/*.log
+
+# Secrets and credentials
+.env
+*.env
+secrets.toml
+
+# IDE & OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

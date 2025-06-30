@@ -1,0 +1,6 @@
+kirana_id,name,lat,lon,service_radius_km,stock_categories
+KIR-101,Thane Fresh Mart,19.1865,72.9756,2.0,"groceries,beverages,snacks"
+KIR-102,Vashi Superstore,19.0728,72.9986,2.5,"groceries,personal_care,household"
+KIR-103,Nerul Kirana,19.0330,73.0169,1.8,"groceries,dairy,snacks"
+KIR-104,Airoli Mart,19.1551,72.9982,2.2,"groceries,fruits_veg,beverages"
+KIR-105,Panvel Bazaar,18.9894,73.1175,2.0,"groceries,personal_care,snacks"
