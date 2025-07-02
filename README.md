@@ -13,7 +13,7 @@ CityScale is a modular digital twin and analytics dashboard that:
 - Includes an example script (`utils/osm_routing_example.py`) for fetching realistic road network distances and travel times using OpenStreetMap data via the OpenRouteService API. This is for data enrichment and not required for core dashboard features.
 
 ## Further Space for Improvement
-- Integrate real-time traffic and weather APIs for dynamic ETA and route optimization.
+- Integrate  weather APIs for dynamic ETA and route optimization.
 - Add live inventory sync with kirana POS systems.
 - Incorporate rider assignment and shift optimization.
 - Model customer satisfaction and churn risk.
@@ -24,7 +24,7 @@ CityScale is a modular digital twin and analytics dashboard that:
 A modular, real-time ETA prediction and simulation system for urban logistics in Mumbai zones. Features:
 - Multi-zone traffic-aware simulation
 - Real-time ETA prediction (Random Forest/XGBoost)
-- Delay explanation agent (LangChain + LLM: OpenAI or local LLaMA)
+- AI chatbot ,which can handle user query and resolve it
 - Smart order batching with geospatial visualization
 - Customer clustering with interactive Plotly visualization
 - Streamlit dashboard with sidebar navigation and device-responsive UI
@@ -34,7 +34,7 @@ A modular, real-time ETA prediction and simulation system for urban logistics in
 ## Features
 - **Home:** View active deliveries and filter by zone.
 - **ETA Prediction:** Train and use ETA models (Random Forest/XGBoost) on filtered data.
-- **Delay Explanation:** Ask questions about delivery delays using OpenAI or local LLaMA models (LangChain-based agent).
+- **AI chatbot:** Ask questions about project,delivery,etc.
 - **Order Batching:** Run smart batching optimizer and visualize batches on a map.
 - **Customer Clustering:** Cluster customers and visualize clusters interactively.
 - **Kirana vs Central Delivery Simulator:** What-if analysis of local vs central fulfillment, with savings KPIs.
@@ -58,15 +58,12 @@ A modular, real-time ETA prediction and simulation system for urban logistics in
 ## Onboarding & Demo Data
 The dashboard now features an improved onboarding experience:
 - **Stepper-style Home Page:** When you launch the app, you'll see a prominent welcome block with project overview and instructions. Click **Next** to reveal the main dashboard, data, and modules.
-- **Demo Data Generation:** On the Home tab, use the **Generate Demo Data** button to instantly create 30 days of realistic order data (20+ orders per day) for demo and testing. Demo data is only loaded after you click the button, and persists during your session.
+- **Real time Data Generation:** On the Home tab, use the **Generate  Data** button to instantly create 30 days of realistic order data (20+ orders per day) for demo and testing. Demo data is only loaded after you click the button, and persists during your session.
 - **User Experience:** The onboarding flow is designed for quick, intuitive exploration—ideal for new users and COO-level demos. Helpful tips and instructions are always visible on the Home page.
 
 ## Sample Data
 Place sample CSVs in the `data/` folder: `orders.csv`, `riders.csv`, `zones.csv`, `kirana.csv`. Or use the demo data generator for instant test data.
 
-## LLM Support
-- **OpenAI:** Enter your API key in the Delay Explanation page.
-- **LLaMA:** Provide a local model path if using LLaMA (no public endpoint required).
 
 ## Deployment
 Deploy on Streamlit Community Cloud or Render.
